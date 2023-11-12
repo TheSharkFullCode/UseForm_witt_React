@@ -9,7 +9,7 @@ function App() {
     
     <div >
 
-    <div className='flex justify-around border-[1px] rounded'>
+    <div className='flex justify-around border-[1px] rounded bg-[#5cc229]'>
 
      <span className='text-2xl font-semibold text-fuchsia-700'>My firts proyect with useForm </span>
      <span>pro</span>

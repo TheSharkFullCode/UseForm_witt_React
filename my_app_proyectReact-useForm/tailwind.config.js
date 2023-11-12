@@ -18,6 +18,9 @@ export default {
       padding: {
         'button': '1rem 2rem', // Espaciado personalizado para botones
       },
+      button:{
+        'backgroundColor':'red'
+      }
     },
   },
   plugins: [],

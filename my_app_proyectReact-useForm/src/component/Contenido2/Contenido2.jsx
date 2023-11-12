@@ -42,7 +42,7 @@ export const Contenido2 = () => {
 
             <div className='flex flex-col w-[350px] gap-2  ml-[150px]'>
 
-          <span>Registro de usuario</span>
+          <span className='text-[29px]'>Registro de usuario</span>
           <label htmlFor="name">Name</label>
           <input type="text"   name="name"  {...register('name',{required:messege.name, pattern:patterns.name})} className='border-[1px]  rounded-[4px]' />
 
@@ -80,7 +80,7 @@ export const Contenido2 = () => {
             <label htmlFor="check">Aceptar recibir información</label>
             <input type="checkbox"  name='check' {...register('check')} />
           </section>
-              <button type='submit' className=' py-2 px-2 bg-[#ff9800] rounded-[5px] text-[white] font-semibold' >Enviar</button>
+              <button type='submit' className=' py-2 px-2 bg-[#ff9800] rounded-[8px] text-[white] font-semibold' >Enviar</button>
             </div>
 
             <span>Todos los campos tendrán su label correspondientes y correctamente ligado a sus inputs, para que la información persista, considera guardar la lista de usuarios en localStorage, además de un estado.</span>
